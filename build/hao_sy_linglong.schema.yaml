@@ -1,0 +1,49 @@
+__build_info:
+  rime_version: 1.16.1
+  timestamps:
+    default: 1779799616
+    default.custom: 1779801367
+    hao_sy_linglong.custom: 0
+    hao_sy_linglong.schema: 1779801367
+    key_bindings: 1779799616
+    key_bindings.custom: 0
+    punctuation: 1779799616
+    punctuation.custom: 0
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator
+menu:
+  page_size: 5
+schema:
+  author:
+    - "作者 荒"
+  description: |
+    辅助方案。
+    配合 table_translator@linglong 实现玲珑词库。
+
+  name: "好码·松烟(玲珑)【勿用】"
+  schema_id: hao_sy_linglong
+  version: 20250809
+speller:
+  algebra:
+    - "xlit/ZYXVTSQPNMLKJHGFDCBA/zyxvtsqpnmlkjhgfdcba/"
+  alphabet: "zyxwvutsrqponmlkjihgfedcba;'/"
+translator:
+  dictionary: hao_sy_linglong
+  enable_user_dict: false

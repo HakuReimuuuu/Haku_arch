@@ -1,0 +1,27 @@
+__build_info:
+  rime_version: 1.16.1
+  timestamps:
+    default: 1779799616
+    default.custom: 1779801367
+    hao_xi_chaifen.custom: 0
+    hao_xi_chaifen.schema: 1779801367
+    key_bindings: 1779799616
+    key_bindings.custom: 0
+    punctuation: 1779799616
+    punctuation.custom: 0
+menu:
+  page_size: 5
+schema:
+  author:
+    - "作者 荒"
+    - "發明人 朱宇浩"
+  description: |
+    輔助方案，不能打字。
+    配合 lua_filter 實現三重註解功能。
+
+  name: "好码·淅码(拆分表)【勿用】"
+  schema_id: hao_xi_chaifen
+  version: 20250528
+translator:
+  dictionary: hao_xi_chaifen
+  enable_user_dict: false

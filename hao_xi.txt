@@ -1,0 +1,7 @@
+# Rime table
+#@/db_name	hao_xi
+#@/db_type	tabledb
+#@/rime_version	1.16.1
+#@/tick	3
+的	d	4
+他	k	2
